@@ -1,0 +1,7 @@
+int main(void) {
+  srand(time(NULL));
+  int vet[1000], x;
+
+  for(x=0;x<1000;x++){
+    vet[x]=ocupa(x);
+  }
